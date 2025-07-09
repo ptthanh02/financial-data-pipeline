@@ -1,7 +1,5 @@
 # Financial Data Pipeline
 
-> An automated ETL (Extract, Transform, Load) system for collecting and processing Vietnamese stock market data using Apache Airflow, PostgreSQL, and Apache Superset.
-
 ## 🚀 Overview
 
 This project implements a comprehensive data platform for financial data processing, specifically designed to collect, store, and visualize Vietnamese stock market data. The system utilizes modern data engineering tools to create an automated pipeline that runs daily to fetch stock prices from VNDirect API and presents them through interactive dashboards.
