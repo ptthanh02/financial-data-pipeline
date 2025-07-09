@@ -71,7 +71,7 @@ The system currently tracks the following Vietnamese stocks:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/financial-data-pipeline.git
+   git clone https://github.com/ptthanh02/financial-data-pipeline.git
    cd financial-data-pipeline
    ```
 
