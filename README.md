@@ -6,7 +6,7 @@
 
 This project implements a comprehensive data platform for financial data processing, specifically designed to collect, store, and visualize Vietnamese stock market data. The system utilizes modern data engineering tools to create an automated pipeline that runs daily to fetch stock prices from VNDirect API and presents them through interactive dashboards.
 
-![architecture diagram](image.png)
+![image](https://github.com/user-attachments/assets/e3877fa3-239f-45e0-9a20-83467535ddcf)
 
 ## 🏗️ Architecture
 
@@ -166,7 +166,7 @@ CREATE TABLE stock_price (
 
 The Apache Superset dashboard provides comprehensive stock market analytics:
 
-![Superset dashboard](image-1.png)
+![image](https://github.com/user-attachments/assets/bac7ceca-1c20-4a25-a4f2-91a19b62b8fa)
 
 - **Adjusted Close Prices**: Time series visualization of stock performance
 - **Trading Volume Analysis**: Volume distribution across different stocks
@@ -183,7 +183,7 @@ The Apache Superset dashboard provides comprehensive stock market analytics:
 - Average prices and adjusted values
 - Market capitalization indicators
 
-**[Note: Add SQL query interface screenshot here - Image 3]**
+![image](https://github.com/user-attachments/assets/5bb89850-97c4-4d2d-8e80-58f9e516d845)
 
 ## 🔧 Configuration
 
