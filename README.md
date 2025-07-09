@@ -128,7 +128,7 @@ The system deploys the following services:
    - Inserts new records only
    - Maintains data integrity
 
-**[Note: Add Airflow DAG graph screenshot here]**
+![image](https://github.com/user-attachments/assets/fa59e69e-5370-444c-835b-cfaaf2def17c)
 
 ### Database Schema
 
