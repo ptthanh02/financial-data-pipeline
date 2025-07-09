@@ -1,0 +1,51 @@
+[2024-05-29T07:12:20.214+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: crawl_stock_data.create_table_and_insert_task scheduled__2024-05-27T00:00:00+00:00 [queued]>
+[2024-05-29T07:12:20.225+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: crawl_stock_data.create_table_and_insert_task scheduled__2024-05-27T00:00:00+00:00 [queued]>
+[2024-05-29T07:12:20.226+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-05-29T07:12:20.242+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): create_table_and_insert_task> on 2024-05-27 00:00:00+00:00
+[2024-05-29T07:12:20.249+0000] {standard_task_runner.py:60} INFO - Started process 97 to run task
+[2024-05-29T07:12:20.251+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'crawl_stock_data', 'create_table_and_insert_task', 'scheduled__2024-05-27T00:00:00+00:00', '--job-id', '28', '--raw', '--subdir', 'DAGS_FOLDER/price_stock.py', '--cfg-path', '/tmp/tmplp_pynpj']
+[2024-05-29T07:12:20.253+0000] {standard_task_runner.py:88} INFO - Job 28: Subtask create_table_and_insert_task
+[2024-05-29T07:12:20.306+0000] {task_command.py:423} INFO - Running <TaskInstance: crawl_stock_data.create_table_and_insert_task scheduled__2024-05-27T00:00:00+00:00 [running]> on host 07e174e0804e
+[2024-05-29T07:12:20.392+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='crawl_stock_data' AIRFLOW_CTX_TASK_ID='create_table_and_insert_task' AIRFLOW_CTX_EXECUTION_DATE='2024-05-27T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-05-27T00:00:00+00:00'
+[2024-05-29T07:12:20.478+0000] {base.py:83} INFO - Using connection ID 'postgres_localhost' for task execution.
+[2024-05-29T07:12:20.492+0000] {sql.py:457} INFO - Running statement: 
+            CREATE TABLE IF NOT EXISTS stock_price (
+                code VARCHAR(50),
+                date DATE,
+                time TIME,
+                floor VARCHAR(50),
+                type VARCHAR(50),
+                basicPrice FLOAT,
+                ceilingPrice FLOAT,
+                floorPrice FLOAT,
+                open FLOAT,
+                high FLOAT,
+                low FLOAT,
+                close FLOAT,
+                average FLOAT,
+                adOpen FLOAT,
+                adHigh FLOAT,
+                adLow FLOAT,
+                adClose FLOAT,
+                adAverage FLOAT,
+                nmVolume FLOAT,
+                nmValue FLOAT,
+                ptVolume FLOAT,
+                ptValue FLOAT,
+                change FLOAT,
+                adChange FLOAT,
+                pctChange FLOAT
+            );
+        , parameters: None
+[2024-05-29T07:12:20.500+0000] {logging_mixin.py:188} INFO - Bảng stock_price đã được tạo
+[2024-05-29T07:12:20.509+0000] {base.py:83} INFO - Using connection ID 'postgres_localhost' for task execution.
+[2024-05-29T07:12:20.523+0000] {sql.py:457} INFO - Running statement: SELECT MAX(date) FROM stock_price, parameters: None
+[2024-05-29T07:12:20.530+0000] {sql.py:466} INFO - Rows affected: 1
+[2024-05-29T07:12:20.531+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/providers/common/sql/hooks/sql.py:407: AirflowProviderDeprecationWarning: Call to deprecated method _make_common_data_structure. (The `_make_serializable` method is deprecated and support will be removed in a future version of the common.sql provider. Please update the DbApiHook's provider to a version based on common.sql >= 1.9.1.)
+  result = self._make_common_data_structure(handler(cur))
+
+[2024-05-29T07:12:20.541+0000] {logging_mixin.py:188} INFO - Không có dữ liệu nào để chèn vào bảng.
+[2024-05-29T07:12:20.541+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-05-29T07:12:20.551+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=crawl_stock_data, task_id=create_table_and_insert_task, execution_date=20240527T000000, start_date=20240529T071220, end_date=20240529T071220
+[2024-05-29T07:12:20.585+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-05-29T07:12:20.607+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

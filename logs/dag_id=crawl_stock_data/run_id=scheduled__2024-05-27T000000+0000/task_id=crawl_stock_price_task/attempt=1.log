@@ -1,0 +1,27 @@
+[2024-05-29T07:12:11.111+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: crawl_stock_data.crawl_stock_price_task scheduled__2024-05-27T00:00:00+00:00 [queued]>
+[2024-05-29T07:12:11.136+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: crawl_stock_data.crawl_stock_price_task scheduled__2024-05-27T00:00:00+00:00 [queued]>
+[2024-05-29T07:12:11.137+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-05-29T07:12:11.171+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): crawl_stock_price_task> on 2024-05-27 00:00:00+00:00
+[2024-05-29T07:12:11.179+0000] {standard_task_runner.py:60} INFO - Started process 65 to run task
+[2024-05-29T07:12:11.188+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'crawl_stock_data', 'crawl_stock_price_task', 'scheduled__2024-05-27T00:00:00+00:00', '--job-id', '25', '--raw', '--subdir', 'DAGS_FOLDER/price_stock.py', '--cfg-path', '/tmp/tmphu_w8uxo']
+[2024-05-29T07:12:11.191+0000] {standard_task_runner.py:88} INFO - Job 25: Subtask crawl_stock_price_task
+[2024-05-29T07:12:11.307+0000] {task_command.py:423} INFO - Running <TaskInstance: crawl_stock_data.crawl_stock_price_task scheduled__2024-05-27T00:00:00+00:00 [running]> on host 07e174e0804e
+[2024-05-29T07:12:11.524+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='crawl_stock_data' AIRFLOW_CTX_TASK_ID='crawl_stock_price_task' AIRFLOW_CTX_EXECUTION_DATE='2024-05-27T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-05-27T00:00:00+00:00'
+[2024-05-29T07:12:11.528+0000] {logging_mixin.py:188} INFO - https://finfo-api.vndirect.com.vn/v4/stock_prices?sort=date&q=code:VNM,VCB,VIC,BID,SSI,PNJ,HPG,GAS,MWG,VJC~date:gte:2020-01-01~date:lte:2024-12-31&size=9990&page=1
+[2024-05-29T07:12:16.857+0000] {python.py:202} INFO - Done. Returned value was:      code        date      time floor  ...      ptValue  change  adChange  pctChange
+0     HPG  2024-05-29  14:10:54  HOSE  ...    545.94415   -0.30   -0.3000    -1.0292
+1     VNM  2024-05-29  14:10:54  HOSE  ...   2649.00000   -0.60   -0.6000    -0.8982
+2     VCB  2024-05-29  14:10:53  HOSE  ...      9.70490   -0.80   -0.8000    -0.8820
+3     PNJ  2024-05-29  14:10:39  HOSE  ...  65710.73100   -1.00   -1.0000    -1.0537
+4     SSI  2024-05-29  14:10:54  HOSE  ...      2.31400   -0.15   -0.1500    -0.4213
+...   ...         ...       ...   ...  ...          ...     ...       ...        ...
+9985  BID  2020-06-01  15:06:04  HOSE  ...      0.00000    1.35    0.9324     3.3666
+9986  GAS  2020-06-01  15:06:04  HOSE  ...      0.00000    0.90    0.6512     1.2097
+9987  VNM  2020-06-01  15:06:04  HOSE  ...      0.00000    1.10    0.7595     0.9565
+9988  PNJ  2020-06-01  15:06:04  HOSE  ...      0.00000    0.80    0.5576     1.2678
+9989  HPG  2020-06-01  15:06:04  HOSE  ...      0.00000    0.25    0.1035     0.9124
+
+[9990 rows x 25 columns]
+[2024-05-29T07:12:17.172+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=crawl_stock_data, task_id=crawl_stock_price_task, execution_date=20240527T000000, start_date=20240529T071211, end_date=20240529T071217
+[2024-05-29T07:12:17.239+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-05-29T07:12:17.275+0000] {taskinstance.py:3309} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,224 @@
+[2024-05-30T11:15:37.346+0000] {processor.py:161} INFO - Started process (PID=34) to work on /opt/airflow/dags/price_stock.py
+[2024-05-30T11:15:37.348+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/price_stock.py for tasks to queue
+[2024-05-30T11:15:37.354+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:15:37.354+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:15:38.380+0000] {processor.py:840} INFO - DAG(s) 'crawl_stock_data' retrieved from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:15:38.660+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:15:38.659+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-30T11:15:38.696+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:15:38.695+0000] {dag.py:3834} INFO - Setting next_dagrun for crawl_stock_data to 2024-05-31 00:00:00+00:00, run_after=2024-06-01 00:00:00+00:00
+[2024-05-30T11:15:38.934+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/price_stock.py took 1.594 seconds
+[2024-05-30T11:16:09.046+0000] {processor.py:161} INFO - Started process (PID=94) to work on /opt/airflow/dags/price_stock.py
+[2024-05-30T11:16:09.048+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/price_stock.py for tasks to queue
+[2024-05-30T11:16:09.052+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:16:09.051+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:16:09.460+0000] {processor.py:840} INFO - DAG(s) 'crawl_stock_data' retrieved from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:16:09.754+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:16:09.754+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-30T11:16:09.785+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:16:09.784+0000] {dag.py:3834} INFO - Setting next_dagrun for crawl_stock_data to 2024-05-31 00:00:00+00:00, run_after=2024-06-01 00:00:00+00:00
+[2024-05-30T11:16:09.811+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/price_stock.py took 0.775 seconds
+[2024-05-30T11:16:39.868+0000] {processor.py:161} INFO - Started process (PID=156) to work on /opt/airflow/dags/price_stock.py
+[2024-05-30T11:16:39.869+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/price_stock.py for tasks to queue
+[2024-05-30T11:16:39.871+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:16:39.871+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:16:40.665+0000] {processor.py:840} INFO - DAG(s) 'crawl_stock_data' retrieved from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:16:41.160+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:16:41.159+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-30T11:16:41.196+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:16:41.196+0000] {dag.py:3834} INFO - Setting next_dagrun for crawl_stock_data to 2024-05-31 00:00:00+00:00, run_after=2024-06-01 00:00:00+00:00
+[2024-05-30T11:16:41.246+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/price_stock.py took 1.380 seconds
+[2024-05-30T11:17:11.480+0000] {processor.py:161} INFO - Started process (PID=217) to work on /opt/airflow/dags/price_stock.py
+[2024-05-30T11:17:11.482+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/price_stock.py for tasks to queue
+[2024-05-30T11:17:11.485+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:17:11.484+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:17:11.987+0000] {processor.py:840} INFO - DAG(s) 'crawl_stock_data' retrieved from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:17:12.345+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:17:12.344+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-30T11:17:12.385+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:17:12.384+0000] {dag.py:3834} INFO - Setting next_dagrun for crawl_stock_data to 2024-05-31 00:00:00+00:00, run_after=2024-06-01 00:00:00+00:00
+[2024-05-30T11:17:12.415+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/price_stock.py took 0.940 seconds
+[2024-05-30T11:17:43.270+0000] {processor.py:161} INFO - Started process (PID=278) to work on /opt/airflow/dags/price_stock.py
+[2024-05-30T11:17:43.272+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/price_stock.py for tasks to queue
+[2024-05-30T11:17:43.274+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:17:43.273+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:17:43.715+0000] {processor.py:840} INFO - DAG(s) 'crawl_stock_data' retrieved from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:17:43.991+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:17:43.990+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-30T11:17:44.014+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:17:44.014+0000] {dag.py:3834} INFO - Setting next_dagrun for crawl_stock_data to 2024-05-31 00:00:00+00:00, run_after=2024-06-01 00:00:00+00:00
+[2024-05-30T11:17:44.039+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/price_stock.py took 0.773 seconds
+[2024-05-30T11:18:14.081+0000] {processor.py:161} INFO - Started process (PID=339) to work on /opt/airflow/dags/price_stock.py
+[2024-05-30T11:18:14.082+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/price_stock.py for tasks to queue
+[2024-05-30T11:18:14.084+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:18:14.083+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:18:14.418+0000] {processor.py:840} INFO - DAG(s) 'crawl_stock_data' retrieved from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:18:14.678+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:18:14.677+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-30T11:18:14.703+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:18:14.703+0000] {dag.py:3834} INFO - Setting next_dagrun for crawl_stock_data to 2024-05-31 00:00:00+00:00, run_after=2024-06-01 00:00:00+00:00
+[2024-05-30T11:18:14.729+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/price_stock.py took 0.651 seconds
+[2024-05-30T11:18:44.860+0000] {processor.py:161} INFO - Started process (PID=400) to work on /opt/airflow/dags/price_stock.py
+[2024-05-30T11:18:44.861+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/price_stock.py for tasks to queue
+[2024-05-30T11:18:44.863+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:18:44.862+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:18:45.226+0000] {processor.py:840} INFO - DAG(s) 'crawl_stock_data' retrieved from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:18:45.471+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:18:45.471+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-30T11:18:45.498+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:18:45.498+0000] {dag.py:3834} INFO - Setting next_dagrun for crawl_stock_data to 2024-05-31 00:00:00+00:00, run_after=2024-06-01 00:00:00+00:00
+[2024-05-30T11:18:45.526+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/price_stock.py took 0.670 seconds
+[2024-05-30T11:19:15.913+0000] {processor.py:161} INFO - Started process (PID=466) to work on /opt/airflow/dags/price_stock.py
+[2024-05-30T11:19:15.914+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/price_stock.py for tasks to queue
+[2024-05-30T11:19:15.917+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:19:15.917+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:19:16.284+0000] {processor.py:840} INFO - DAG(s) 'crawl_stock_data' retrieved from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:19:16.626+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:19:16.625+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-30T11:19:16.665+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:19:16.665+0000] {dag.py:3834} INFO - Setting next_dagrun for crawl_stock_data to 2024-05-31 00:00:00+00:00, run_after=2024-06-01 00:00:00+00:00
+[2024-05-30T11:19:16.703+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/price_stock.py took 0.793 seconds
+[2024-05-30T11:19:46.779+0000] {processor.py:161} INFO - Started process (PID=528) to work on /opt/airflow/dags/price_stock.py
+[2024-05-30T11:19:46.781+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/price_stock.py for tasks to queue
+[2024-05-30T11:19:46.783+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:19:46.782+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:19:47.100+0000] {processor.py:840} INFO - DAG(s) 'crawl_stock_data' retrieved from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:19:47.327+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:19:47.326+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-30T11:19:47.352+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:19:47.352+0000] {dag.py:3834} INFO - Setting next_dagrun for crawl_stock_data to 2024-05-31 00:00:00+00:00, run_after=2024-06-01 00:00:00+00:00
+[2024-05-30T11:19:47.377+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/price_stock.py took 0.600 seconds
+[2024-05-30T11:20:17.864+0000] {processor.py:161} INFO - Started process (PID=582) to work on /opt/airflow/dags/price_stock.py
+[2024-05-30T11:20:17.866+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/price_stock.py for tasks to queue
+[2024-05-30T11:20:17.870+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:20:17.869+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:20:18.519+0000] {processor.py:840} INFO - DAG(s) 'crawl_stock_data' retrieved from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:20:18.990+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:20:18.990+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-30T11:20:19.040+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:20:19.040+0000] {dag.py:3834} INFO - Setting next_dagrun for crawl_stock_data to 2024-05-31 00:00:00+00:00, run_after=2024-06-01 00:00:00+00:00
+[2024-05-30T11:20:19.080+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/price_stock.py took 1.223 seconds
+[2024-05-30T11:20:49.309+0000] {processor.py:161} INFO - Started process (PID=642) to work on /opt/airflow/dags/price_stock.py
+[2024-05-30T11:20:49.310+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/price_stock.py for tasks to queue
+[2024-05-30T11:20:49.313+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:20:49.312+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:20:50.190+0000] {processor.py:840} INFO - DAG(s) 'crawl_stock_data' retrieved from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:20:50.432+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:20:50.432+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-30T11:20:50.470+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:20:50.470+0000] {dag.py:3834} INFO - Setting next_dagrun for crawl_stock_data to 2024-05-31 00:00:00+00:00, run_after=2024-06-01 00:00:00+00:00
+[2024-05-30T11:20:50.511+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/price_stock.py took 1.205 seconds
+[2024-05-30T11:21:21.374+0000] {processor.py:161} INFO - Started process (PID=702) to work on /opt/airflow/dags/price_stock.py
+[2024-05-30T11:21:21.375+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/price_stock.py for tasks to queue
+[2024-05-30T11:21:21.378+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:21:21.377+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:21:21.936+0000] {processor.py:840} INFO - DAG(s) 'crawl_stock_data' retrieved from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:21:22.070+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:21:22.069+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-30T11:21:22.098+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:21:22.098+0000] {dag.py:3834} INFO - Setting next_dagrun for crawl_stock_data to 2024-05-31 00:00:00+00:00, run_after=2024-06-01 00:00:00+00:00
+[2024-05-30T11:21:22.132+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/price_stock.py took 0.761 seconds
+[2024-05-30T11:21:52.443+0000] {processor.py:161} INFO - Started process (PID=764) to work on /opt/airflow/dags/price_stock.py
+[2024-05-30T11:21:52.444+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/price_stock.py for tasks to queue
+[2024-05-30T11:21:52.446+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:21:52.445+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:21:53.221+0000] {processor.py:840} INFO - DAG(s) 'crawl_stock_data' retrieved from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:21:53.368+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:21:53.367+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-30T11:21:53.396+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:21:53.396+0000] {dag.py:3834} INFO - Setting next_dagrun for crawl_stock_data to 2024-05-31 00:00:00+00:00, run_after=2024-06-01 00:00:00+00:00
+[2024-05-30T11:21:53.429+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/price_stock.py took 0.990 seconds
+[2024-05-30T11:22:23.665+0000] {processor.py:161} INFO - Started process (PID=821) to work on /opt/airflow/dags/price_stock.py
+[2024-05-30T11:22:23.667+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/price_stock.py for tasks to queue
+[2024-05-30T11:22:23.669+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:22:23.669+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:22:24.256+0000] {processor.py:840} INFO - DAG(s) 'crawl_stock_data' retrieved from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:22:24.388+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:22:24.388+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-30T11:22:24.416+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:22:24.416+0000] {dag.py:3834} INFO - Setting next_dagrun for crawl_stock_data to 2024-05-31 00:00:00+00:00, run_after=2024-06-01 00:00:00+00:00
+[2024-05-30T11:22:24.446+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/price_stock.py took 0.785 seconds
+[2024-05-30T11:22:54.520+0000] {processor.py:161} INFO - Started process (PID=878) to work on /opt/airflow/dags/price_stock.py
+[2024-05-30T11:22:54.521+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/price_stock.py for tasks to queue
+[2024-05-30T11:22:54.524+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:22:54.523+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:22:55.188+0000] {processor.py:840} INFO - DAG(s) 'crawl_stock_data' retrieved from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:22:55.336+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:22:55.335+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-30T11:22:55.371+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:22:55.371+0000] {dag.py:3834} INFO - Setting next_dagrun for crawl_stock_data to 2024-05-31 00:00:00+00:00, run_after=2024-06-01 00:00:00+00:00
+[2024-05-30T11:22:55.408+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/price_stock.py took 0.891 seconds
+[2024-05-30T11:23:25.761+0000] {processor.py:161} INFO - Started process (PID=940) to work on /opt/airflow/dags/price_stock.py
+[2024-05-30T11:23:25.763+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/price_stock.py for tasks to queue
+[2024-05-30T11:23:25.766+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:23:25.765+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:23:26.568+0000] {processor.py:840} INFO - DAG(s) 'crawl_stock_data' retrieved from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:23:26.724+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:23:26.723+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-30T11:23:26.761+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:23:26.760+0000] {dag.py:3834} INFO - Setting next_dagrun for crawl_stock_data to 2024-05-31 00:00:00+00:00, run_after=2024-06-01 00:00:00+00:00
+[2024-05-30T11:23:26.795+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/price_stock.py took 1.038 seconds
+[2024-05-30T11:23:57.763+0000] {processor.py:161} INFO - Started process (PID=999) to work on /opt/airflow/dags/price_stock.py
+[2024-05-30T11:23:57.764+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/price_stock.py for tasks to queue
+[2024-05-30T11:23:57.767+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:23:57.766+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:23:58.326+0000] {processor.py:840} INFO - DAG(s) 'crawl_stock_data' retrieved from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:23:58.447+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:23:58.446+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-30T11:23:58.474+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:23:58.474+0000] {dag.py:3834} INFO - Setting next_dagrun for crawl_stock_data to 2024-05-31 00:00:00+00:00, run_after=2024-06-01 00:00:00+00:00
+[2024-05-30T11:23:58.500+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/price_stock.py took 0.741 seconds
+[2024-05-30T11:24:29.002+0000] {processor.py:161} INFO - Started process (PID=1056) to work on /opt/airflow/dags/price_stock.py
+[2024-05-30T11:24:29.004+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/price_stock.py for tasks to queue
+[2024-05-30T11:24:29.006+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:24:29.006+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:24:29.619+0000] {processor.py:840} INFO - DAG(s) 'crawl_stock_data' retrieved from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:24:29.833+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:24:29.831+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-30T11:24:29.876+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:24:29.875+0000] {dag.py:3834} INFO - Setting next_dagrun for crawl_stock_data to 2024-05-31 00:00:00+00:00, run_after=2024-06-01 00:00:00+00:00
+[2024-05-30T11:24:29.939+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/price_stock.py took 0.940 seconds
+[2024-05-30T11:25:00.781+0000] {processor.py:161} INFO - Started process (PID=1113) to work on /opt/airflow/dags/price_stock.py
+[2024-05-30T11:25:00.784+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/price_stock.py for tasks to queue
+[2024-05-30T11:25:00.790+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:25:00.789+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:25:01.582+0000] {processor.py:840} INFO - DAG(s) 'crawl_stock_data' retrieved from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:25:01.724+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:25:01.723+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-30T11:25:01.754+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:25:01.754+0000] {dag.py:3834} INFO - Setting next_dagrun for crawl_stock_data to 2024-05-31 00:00:00+00:00, run_after=2024-06-01 00:00:00+00:00
+[2024-05-30T11:25:01.783+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/price_stock.py took 1.016 seconds
+[2024-05-30T11:25:32.631+0000] {processor.py:161} INFO - Started process (PID=1170) to work on /opt/airflow/dags/price_stock.py
+[2024-05-30T11:25:32.632+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/price_stock.py for tasks to queue
+[2024-05-30T11:25:32.635+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:25:32.635+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:25:33.230+0000] {processor.py:840} INFO - DAG(s) 'crawl_stock_data' retrieved from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:25:33.411+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:25:33.410+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-30T11:25:33.465+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:25:33.464+0000] {dag.py:3834} INFO - Setting next_dagrun for crawl_stock_data to 2024-05-31 00:00:00+00:00, run_after=2024-06-01 00:00:00+00:00
+[2024-05-30T11:25:33.498+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/price_stock.py took 0.872 seconds
+[2024-05-30T11:26:04.297+0000] {processor.py:161} INFO - Started process (PID=1229) to work on /opt/airflow/dags/price_stock.py
+[2024-05-30T11:26:04.299+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/price_stock.py for tasks to queue
+[2024-05-30T11:26:04.301+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:26:04.301+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:26:05.011+0000] {processor.py:840} INFO - DAG(s) 'crawl_stock_data' retrieved from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:26:05.162+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:26:05.161+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-30T11:26:05.193+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:26:05.192+0000] {dag.py:3834} INFO - Setting next_dagrun for crawl_stock_data to 2024-05-31 00:00:00+00:00, run_after=2024-06-01 00:00:00+00:00
+[2024-05-30T11:26:05.222+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/price_stock.py took 0.928 seconds
+[2024-05-30T11:26:35.396+0000] {processor.py:161} INFO - Started process (PID=1286) to work on /opt/airflow/dags/price_stock.py
+[2024-05-30T11:26:35.398+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/price_stock.py for tasks to queue
+[2024-05-30T11:26:35.401+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:26:35.401+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:26:36.057+0000] {processor.py:840} INFO - DAG(s) 'crawl_stock_data' retrieved from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:26:36.212+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:26:36.211+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-30T11:26:36.243+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:26:36.242+0000] {dag.py:3834} INFO - Setting next_dagrun for crawl_stock_data to 2024-05-31 00:00:00+00:00, run_after=2024-06-01 00:00:00+00:00
+[2024-05-30T11:26:36.272+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/price_stock.py took 0.879 seconds
+[2024-05-30T11:27:06.341+0000] {processor.py:161} INFO - Started process (PID=1343) to work on /opt/airflow/dags/price_stock.py
+[2024-05-30T11:27:06.342+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/price_stock.py for tasks to queue
+[2024-05-30T11:27:06.346+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:27:06.344+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:27:06.883+0000] {processor.py:840} INFO - DAG(s) 'crawl_stock_data' retrieved from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:27:07.013+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:27:07.012+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-30T11:27:07.041+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:27:07.041+0000] {dag.py:3834} INFO - Setting next_dagrun for crawl_stock_data to 2024-05-31 00:00:00+00:00, run_after=2024-06-01 00:00:00+00:00
+[2024-05-30T11:27:07.069+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/price_stock.py took 0.732 seconds
+[2024-05-30T11:27:37.286+0000] {processor.py:161} INFO - Started process (PID=1400) to work on /opt/airflow/dags/price_stock.py
+[2024-05-30T11:27:37.288+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/price_stock.py for tasks to queue
+[2024-05-30T11:27:37.291+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:27:37.290+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:27:37.948+0000] {processor.py:840} INFO - DAG(s) 'crawl_stock_data' retrieved from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:27:38.120+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:27:38.119+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-30T11:27:38.159+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:27:38.159+0000] {dag.py:3834} INFO - Setting next_dagrun for crawl_stock_data to 2024-05-31 00:00:00+00:00, run_after=2024-06-01 00:00:00+00:00
+[2024-05-30T11:27:38.193+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/price_stock.py took 0.911 seconds
+[2024-05-30T11:28:08.509+0000] {processor.py:161} INFO - Started process (PID=1457) to work on /opt/airflow/dags/price_stock.py
+[2024-05-30T11:28:08.511+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/price_stock.py for tasks to queue
+[2024-05-30T11:28:08.513+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:28:08.513+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:28:09.013+0000] {processor.py:840} INFO - DAG(s) 'crawl_stock_data' retrieved from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:28:09.146+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:28:09.145+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-30T11:28:09.186+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:28:09.185+0000] {dag.py:3834} INFO - Setting next_dagrun for crawl_stock_data to 2024-05-31 00:00:00+00:00, run_after=2024-06-01 00:00:00+00:00
+[2024-05-30T11:28:09.215+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/price_stock.py took 0.712 seconds
+[2024-05-30T11:28:39.739+0000] {processor.py:161} INFO - Started process (PID=1514) to work on /opt/airflow/dags/price_stock.py
+[2024-05-30T11:28:39.741+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/price_stock.py for tasks to queue
+[2024-05-30T11:28:39.743+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:28:39.743+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:28:40.235+0000] {processor.py:840} INFO - DAG(s) 'crawl_stock_data' retrieved from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:28:40.443+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:28:40.442+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-30T11:28:40.491+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:28:40.490+0000] {dag.py:3834} INFO - Setting next_dagrun for crawl_stock_data to 2024-05-31 00:00:00+00:00, run_after=2024-06-01 00:00:00+00:00
+[2024-05-30T11:28:40.539+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/price_stock.py took 0.803 seconds
+[2024-05-30T11:29:11.099+0000] {processor.py:161} INFO - Started process (PID=1571) to work on /opt/airflow/dags/price_stock.py
+[2024-05-30T11:29:11.100+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/price_stock.py for tasks to queue
+[2024-05-30T11:29:11.102+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:29:11.102+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:29:11.611+0000] {processor.py:840} INFO - DAG(s) 'crawl_stock_data' retrieved from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:29:11.778+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:29:11.777+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-30T11:29:11.805+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:29:11.805+0000] {dag.py:3834} INFO - Setting next_dagrun for crawl_stock_data to 2024-05-31 00:00:00+00:00, run_after=2024-06-01 00:00:00+00:00
+[2024-05-30T11:29:11.833+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/price_stock.py took 0.737 seconds
+[2024-05-30T11:29:42.087+0000] {processor.py:161} INFO - Started process (PID=1628) to work on /opt/airflow/dags/price_stock.py
+[2024-05-30T11:29:42.088+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/price_stock.py for tasks to queue
+[2024-05-30T11:29:42.091+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:29:42.090+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:29:42.540+0000] {processor.py:840} INFO - DAG(s) 'crawl_stock_data' retrieved from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:29:42.699+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:29:42.698+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-30T11:29:42.728+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:29:42.727+0000] {dag.py:3834} INFO - Setting next_dagrun for crawl_stock_data to 2024-05-31 00:00:00+00:00, run_after=2024-06-01 00:00:00+00:00
+[2024-05-30T11:29:42.753+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/price_stock.py took 0.668 seconds
+[2024-05-30T11:30:12.842+0000] {processor.py:161} INFO - Started process (PID=1683) to work on /opt/airflow/dags/price_stock.py
+[2024-05-30T11:30:12.843+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/price_stock.py for tasks to queue
+[2024-05-30T11:30:12.846+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:30:12.845+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:30:13.336+0000] {processor.py:840} INFO - DAG(s) 'crawl_stock_data' retrieved from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:30:13.498+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:30:13.497+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-30T11:30:13.525+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:30:13.524+0000] {dag.py:3834} INFO - Setting next_dagrun for crawl_stock_data to 2024-05-31 00:00:00+00:00, run_after=2024-06-01 00:00:00+00:00
+[2024-05-30T11:30:13.550+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/price_stock.py took 0.711 seconds
+[2024-05-30T11:30:43.986+0000] {processor.py:161} INFO - Started process (PID=1742) to work on /opt/airflow/dags/price_stock.py
+[2024-05-30T11:30:43.987+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/price_stock.py for tasks to queue
+[2024-05-30T11:30:43.989+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:30:43.989+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:30:44.449+0000] {processor.py:840} INFO - DAG(s) 'crawl_stock_data' retrieved from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:30:44.586+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:30:44.585+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-30T11:30:44.615+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:30:44.615+0000] {dag.py:3834} INFO - Setting next_dagrun for crawl_stock_data to 2024-05-31 00:00:00+00:00, run_after=2024-06-01 00:00:00+00:00
+[2024-05-30T11:30:44.643+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/price_stock.py took 0.659 seconds
+[2024-05-30T11:31:14.793+0000] {processor.py:161} INFO - Started process (PID=1799) to work on /opt/airflow/dags/price_stock.py
+[2024-05-30T11:31:14.795+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/price_stock.py for tasks to queue
+[2024-05-30T11:31:14.797+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:31:14.797+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:31:15.311+0000] {processor.py:840} INFO - DAG(s) 'crawl_stock_data' retrieved from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:31:15.431+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:31:15.430+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-30T11:31:15.454+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:31:15.453+0000] {dag.py:3834} INFO - Setting next_dagrun for crawl_stock_data to 2024-05-31 00:00:00+00:00, run_after=2024-06-01 00:00:00+00:00
+[2024-05-30T11:31:15.478+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/price_stock.py took 0.687 seconds
+[2024-05-30T11:31:45.594+0000] {processor.py:161} INFO - Started process (PID=1854) to work on /opt/airflow/dags/price_stock.py
+[2024-05-30T11:31:45.595+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/price_stock.py for tasks to queue
+[2024-05-30T11:31:45.598+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:31:45.598+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:31:46.204+0000] {processor.py:840} INFO - DAG(s) 'crawl_stock_data' retrieved from /opt/airflow/dags/price_stock.py
+[2024-05-30T11:31:46.378+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:31:46.377+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-05-30T11:31:46.414+0000] {logging_mixin.py:188} INFO - [2024-05-30T11:31:46.413+0000] {dag.py:3834} INFO - Setting next_dagrun for crawl_stock_data to 2024-05-31 00:00:00+00:00, run_after=2024-06-01 00:00:00+00:00
+[2024-05-30T11:31:46.447+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/price_stock.py took 0.857 seconds

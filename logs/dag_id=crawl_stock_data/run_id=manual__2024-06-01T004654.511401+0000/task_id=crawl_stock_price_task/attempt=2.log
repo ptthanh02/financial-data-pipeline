@@ -1,0 +1,29 @@
+[2024-06-01T01:00:15.476+0000] {taskinstance.py:1969} INFO - Dependencies not met for <TaskInstance: crawl_stock_data.crawl_stock_price_task manual__2024-06-01T00:46:54.511401+00:00 [up_for_retry]>, dependency 'Not In Retry Period' FAILED: Task is not ready for retry yet but will be retried automatically. Current date is 2024-06-01T01:00:15.476819+00:00 and task will be retried at 2024-06-01T01:02:45.123196+00:00.
+[2024-06-01T01:00:15.481+0000] {local_task_job_runner.py:160} INFO - Task is not able to be run
+[2024-06-01T01:01:00.214+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: crawl_stock_data.crawl_stock_price_task manual__2024-06-01T00:46:54.511401+00:00 [queued]>
+[2024-06-01T01:01:00.229+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: crawl_stock_data.crawl_stock_price_task manual__2024-06-01T00:46:54.511401+00:00 [queued]>
+[2024-06-01T01:01:00.230+0000] {taskinstance.py:2193} INFO - Starting attempt 2 of 3
+[2024-06-01T01:01:00.251+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): crawl_stock_price_task> on 2024-06-01 00:46:54.511401+00:00
+[2024-06-01T01:01:00.259+0000] {standard_task_runner.py:60} INFO - Started process 96 to run task
+[2024-06-01T01:01:00.264+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'crawl_stock_data', 'crawl_stock_price_task', 'manual__2024-06-01T00:46:54.511401+00:00', '--job-id', '174', '--raw', '--subdir', 'DAGS_FOLDER/price_stock.py', '--cfg-path', '/tmp/tmp3uqvxjgv']
+[2024-06-01T01:01:00.266+0000] {standard_task_runner.py:88} INFO - Job 174: Subtask crawl_stock_price_task
+[2024-06-01T01:01:00.376+0000] {task_command.py:423} INFO - Running <TaskInstance: crawl_stock_data.crawl_stock_price_task manual__2024-06-01T00:46:54.511401+00:00 [running]> on host 07e174e0804e
+[2024-06-01T01:01:00.541+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='crawl_stock_data' AIRFLOW_CTX_TASK_ID='crawl_stock_price_task' AIRFLOW_CTX_EXECUTION_DATE='2024-06-01T00:46:54.511401+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-01T00:46:54.511401+00:00'
+[2024-06-01T01:01:00.545+0000] {logging_mixin.py:188} INFO - https://finfo-api.vndirect.com.vn/v4/stock_prices?sort=date&q=code:VNM,VCB,VIC,BID,SSI,PNJ,HPG,GAS,MWG,VJC~date:gte:2020-01-01~date:lte:2024-12-31&size=9990&page=1
+[2024-06-01T01:01:01.845+0000] {python.py:202} INFO - Done. Returned value was:      code        date      time  ... change adChange  pctChange
+0     VIC  2024-05-31  15:05:07  ...   0.40   0.4000     0.9270
+1     VNM  2024-05-31  15:05:07  ...  -0.30  -0.3000    -0.4566
+2     VCB  2024-05-31  15:05:07  ...  -1.40  -1.4000    -1.5801
+3     MWG  2024-05-31  15:05:07  ...   0.80   0.8000     1.2739
+4     GAS  2024-05-31  15:05:07  ...  -1.00  -1.0000    -1.2330
+...   ...         ...       ...  ...    ...      ...        ...
+9985  GAS  2020-06-03  15:06:02  ...   1.60   1.1576     2.0942
+9986  BID  2020-06-03  15:06:02  ...   0.45   0.3108     1.1097
+9987  VNM  2020-06-03  15:06:02  ...   0.60   0.4143     0.5172
+9988  PNJ  2020-06-03  15:06:02  ...   0.20   0.1394     0.3165
+9989  HPG  2020-06-03  15:06:02  ...  -0.10  -0.0414    -0.3697
+
+[9990 rows x 25 columns]
+[2024-06-01T01:01:02.127+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=crawl_stock_data, task_id=crawl_stock_price_task, execution_date=20240601T004654, start_date=20240601T010100, end_date=20240601T010102
+[2024-06-01T01:01:02.172+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-06-01T01:01:02.203+0000] {taskinstance.py:3309} INFO - 1 downstream tasks scheduled from follow-on schedule check
